@@ -9,7 +9,7 @@ public class StreamsExample {
     public static void main(String[] args) {
         List<String> lists= Arrays.asList("hello","hi","hey");
         List<Double> decimalList = Arrays.asList(12.45, 23.58, 17.13, 42.89, 33.78, 71.85, 56.98, 21.12);
-        List<Integer> numbers = Arrays.asList(1, 2, 3, 4,4,4, 5);
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 4, 5, 5);
         List<String> upperCaseWords = lists.stream()
                 .map(String::toUpperCase)
                 .collect(Collectors.toList());
